@@ -9,9 +9,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib import cm
 from matplotlib.patches import Circle, Wedge, Rectangle
-# import mpld3
-import seaborn as sns
-import plotly.express as px
+
 # files
 import joblib 
 # Shap explanations
