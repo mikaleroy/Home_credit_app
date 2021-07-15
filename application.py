@@ -22,7 +22,7 @@ st.set_page_config(page_title='Home Credit',
                    page_icon=None,
                    layout='wide',
                    initial_sidebar_state='auto',
-                   base='light'
+#                    base='light'
                   )
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
