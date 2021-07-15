@@ -144,7 +144,7 @@ def bar_voisins(id_row, num_neighbors=10, max_features=9):
                    show=False
                   )
     fig=plt.gcf()
-    fig.set_figheight(10.5)
+    fig.set_figheight(6)
     fig.set_figwidth(8)
     # get current axes
     ax=plt.gca()
