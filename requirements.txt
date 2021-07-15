@@ -1,0 +1,10 @@
+numpy
+pandas==1.2.5
+matplotlib
+joblib
+shap
+
+streamlit==0.83.0
+
+
+
