@@ -19,9 +19,11 @@ import streamlit as st
 import streamlit.components.v1 as components
 # Layout
 st.set_page_config(page_title='Home Credit',
-        page_icon=None,
-        layout='wide',
-        initial_sidebar_state='auto',)
+                   page_icon=None,
+                   layout='wide',
+                   initial_sidebar_state='auto',
+                   base='light'
+                  )
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 
