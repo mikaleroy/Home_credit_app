@@ -145,7 +145,7 @@ def bar_voisins(id_row, num_neighbors=10, max_features=9):
                   )
     fig=plt.gcf()
     fig.set_figheight(6)
-    fig.set_figwidth(8)
+    fig.set_figwidth(6)
     # get current axes
     ax=plt.gca()
     # change bar color according to repayed/default colors
