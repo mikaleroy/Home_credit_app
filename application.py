@@ -111,7 +111,7 @@ def gauge(labels=['LOW','HIGH'], colors='jet_r', arrow=1, title=''):
     r = Rectangle((-0.4,-0.1),0.8,0.1, facecolor='w', lw=2)
     ax.add_patch(r)
     ax.text(0, -0.09, title, horizontalalignment='center', \
-         verticalalignment='center', fontsize=70, fontweight='bold')
+         verticalalignment='center', fontsize=80, fontweight='bold')
 
     # plots the arrow now
     pos = arrow
