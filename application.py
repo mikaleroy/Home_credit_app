@@ -241,7 +241,7 @@ if __name__ == "__main__":
             st.pyplot(gauge(labels=['Granted', 'Rejected'] ,
                           colors=[yes_color, no_color],
                           arrow=180-predicted_probas.loc[id_sk].proba*100*1.8-(50-threshold*100)*1.8,
-                          title='Decision id : '+str(id_sk)
+                          title='Score : {:.2%}'.format(predicted_probas.loc[id_sk].proba)
                           )
                    )
 
