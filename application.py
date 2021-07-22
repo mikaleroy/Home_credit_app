@@ -110,8 +110,8 @@ def gauge(labels=['LOW','HIGH'], colors='jet_r', arrow=1, title=''):
     # set the bottom banner and the title
     r = Rectangle((-0.4,-0.1),0.8,0.1, facecolor='w', lw=2)
     ax.add_patch(r)
-    ax.text(0, -0.05, title, horizontalalignment='center', \
-         verticalalignment='center', fontsize=55, fontweight='bold')
+    ax.text(0, -0.09, title, horizontalalignment='center', \
+         verticalalignment='center', fontsize=60, fontweight='bold')
 
     # plots the arrow now
     pos = arrow
@@ -241,7 +241,7 @@ if __name__ == "__main__":
             st.pyplot(gauge(labels=['Granted', 'Rejected'] ,
                           colors=[yes_color, no_color],
                           arrow=180-predicted_probas.loc[id_sk].proba*100*1.8-(50-threshold*100)*1.8,
-                          title='Score : {:.2%}'.format(predicted_probas.loc[id_sk].proba)
+                          title='Score \n {:.2%}'.format(predicted_probas.loc[id_sk].proba)
                           )
                    )
 
